@@ -13,5 +13,6 @@ class Main {
         weight = sc.nextInt();
         bmi = weight / ((height * 0.01) * (height * 0.01));
         System.out.println(String.format("%.1f" , bmi));
+
     }
 }
